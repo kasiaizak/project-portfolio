@@ -2,7 +2,7 @@
 
 # Portfolio
 
-HydrApp to aplikacja PWA do zliczania wypitych dziennie szklanek wody. Strona do przechowywania danych wykorzystuje localStorage - [widok on-line](https://kasiaizak.github.io/hydrapp/).
+Portfolio + trochę informacji na mój temat i formularz kontaktowy - [widok on-line](https://kasiaizak.github.io/portfolio/).
 
 ## Użyte technologie
 
