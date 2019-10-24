@@ -540,7 +540,7 @@ body {
     margin: 0.5rem; }
     @media (min-width: 1024px) {
       .portfolio__item {
-        max-width: 500px; } }
+        max-width: 600px; } }
     .portfolio__item--1 {
       background-image: url("../assets/img/masterszef.png"); }
     .portfolio__item--2 {
@@ -599,9 +599,13 @@ body {
     .portfolio__item-paragraph {
       margin: 0.5rem; }
     .portfolio__item-link {
-      color: #fff; }
-      .portfolio__item-link:hover {
-        color: #1ac056; }
+      white-space: pre;
+      font-size: 1.5rem; }
+      .portfolio__item-link a {
+        color: #fff;
+        text-decoration: none; }
+        .portfolio__item-link a:hover {
+          color: #1ac056; }
 
 @media (min-width: 1024px) {
   .contact {
