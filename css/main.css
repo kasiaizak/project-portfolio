@@ -560,12 +560,13 @@ body {
       position: absolute;
       -webkit-transition: all 0.3s ease-in-out;
       -o-transition: all 0.3s ease-in-out;
-      transition: all 0.3s ease-in-out; }
-      @media screen {
+      transition: all 0.3s ease-in-out;
+      opacity: 0; }
+      @media handheld {
         .portfolio__item-mask {
-          opacity: 0; }
-          .portfolio__item-mask:hover {
-            opacity: 1; } }
+          opacity: 1; } }
+      .portfolio__item-mask:hover {
+        opacity: 1; }
     .portfolio__item-frame {
       border: 1px #fff solid;
       height: 330px;
