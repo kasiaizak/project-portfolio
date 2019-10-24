@@ -553,6 +553,8 @@ body {
       background-image: url("../assets/img/hydrapp.png"); }
     .portfolio__item--6 {
       background-image: url("../assets/img/filmleb.png"); }
+    .portfolio__item--7 {
+      background-image: url("../assets/img/cover.png"); }
     .portfolio__item-mask {
       width: 100%;
       height: 100%;
