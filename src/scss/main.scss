@@ -112,7 +112,7 @@ body {
       @media (min-width: $tablet) {
         font-size: 4rem;
       }
-    
+
       @media (min-width: $laptop-l) {
         font-size: 5rem;
       }
@@ -135,7 +135,7 @@ body {
       @media (min-width: $tablet) {
         font-size: 2.5rem;
       }
-    
+
       @media (min-width: $laptop-l) {
         font-size: 3rem;
       }
@@ -216,7 +216,7 @@ body {
     @media (min-width: $screen-4k) {
       line-height: 1.5;
     }
-    
+
     &--contact {
       margin-bottom: 1rem;
       @media (min-width: $laptop) {
@@ -296,12 +296,13 @@ body {
       background-color: rgba(42, 61, 79, 0.8);
       position: absolute;
       transition: all 0.3s ease-in-out;
-      // @media screen {
-      //   opacity: 0;
-      //   &:hover {
-      //     opacity: 1;
-      //   }
-      // }
+      opacity: 0;
+      @media handheld {
+        opacity: 1;
+      }
+      &:hover {
+        opacity: 1;
+      }
     }
 
     &-frame {
@@ -354,7 +355,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  
+
   &__item {
     text-align: center;
 
@@ -373,7 +374,7 @@ body {
     display: inline-block;
     font-size: 30px;
     margin: 10px;
-    
+
     a {
       color: #fff;
       &:hover {
@@ -422,7 +423,7 @@ body {
       float: right;
       background-color: springgreen;
       border: 1px solid #fff;
-      
+
       &:hover {
         cursor: pointer;
       }
