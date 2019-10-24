@@ -280,7 +280,7 @@ body {
     margin: 0.5rem;
 
     @media (min-width: $laptop) {
-      max-width: 500px;
+      max-width: 600px;
     }
 
     &--1 { background-image: url("../assets/img/masterszef.png"); }
@@ -340,11 +340,15 @@ body {
     &-paragraph {
       margin: 0.5rem;
     }
-
     &-link {
-      color: #fff;
-      &:hover {
-        color: $green;
+      white-space: pre;
+      font-size: 1.5rem;
+      a {
+        color: #fff;
+        text-decoration: none;
+        &:hover {
+          color: $green;
+        }
       }
     }
   }
