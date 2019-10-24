@@ -283,13 +283,13 @@ body {
       max-width: 600px;
     }
 
-    &--1 { background-image: url("../assets/img/masterszef.png"); }
-    &--2 { background-image: url("../assets/img/business-card.png"); }
-    &--3 { background-image: url("../assets/img/pzhk.png"); }
-    &--4 { background-image: url("../assets/img/localstorage-editor.png"); }
-    &--5 { background-image: url("../assets/img/hydrapp.png"); }
-    &--6 { background-image: url("../assets/img/filmleb.png"); }
-    &--7 { background-image: url("../assets/img/cover.png"); }
+    &--hydrapp { background-image: url("../assets/img/hydrapp.png"); }
+    &--localstorage-editor { background-image: url("../assets/img/localstorage-editor.png"); }
+    &--pzhk { background-image: url("../assets/img/pzhk.png"); }
+    &--business-card { background-image: url("../assets/img/business-card.png"); }
+    &--masterszef { background-image: url("../assets/img/masterszef.png"); }
+    &--filmweb { background-image: url("../assets/img/filmleb.png"); }
+    &--portfolio { background-image: url("../assets/img/cover.png"); }
 
     &-mask {
       width: 100%;
