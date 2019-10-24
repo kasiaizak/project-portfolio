@@ -541,19 +541,19 @@ body {
     @media (min-width: 1024px) {
       .portfolio__item {
         max-width: 600px; } }
-    .portfolio__item--1 {
-      background-image: url("../assets/img/masterszef.png"); }
-    .portfolio__item--2 {
-      background-image: url("../assets/img/business-card.png"); }
-    .portfolio__item--3 {
-      background-image: url("../assets/img/pzhk.png"); }
-    .portfolio__item--4 {
-      background-image: url("../assets/img/localstorage-editor.png"); }
-    .portfolio__item--5 {
+    .portfolio__item--hydrapp {
       background-image: url("../assets/img/hydrapp.png"); }
-    .portfolio__item--6 {
+    .portfolio__item--localstorage-editor {
+      background-image: url("../assets/img/localstorage-editor.png"); }
+    .portfolio__item--pzhk {
+      background-image: url("../assets/img/pzhk.png"); }
+    .portfolio__item--business-card {
+      background-image: url("../assets/img/business-card.png"); }
+    .portfolio__item--masterszef {
+      background-image: url("../assets/img/masterszef.png"); }
+    .portfolio__item--filmweb {
       background-image: url("../assets/img/filmleb.png"); }
-    .portfolio__item--7 {
+    .portfolio__item--portfolio {
       background-image: url("../assets/img/cover.png"); }
     .portfolio__item-mask {
       width: 100%;
