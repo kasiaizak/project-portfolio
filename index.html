@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Katarzyna Izak - portfolio</title>
+  <meta name="description" content="Portfolio junior frontend developera" />
+
+  <!-- Title -->
+  <meta property="og:title" content="Katarzyna Izak - portfolio" />
+  <!-- OPTIONAL description. 2-4 sentences. -->
+  <meta property="og:description" content="Portfolio junior frontend developera" />
+  <meta property="og:url" content="https://kasiaizak.github.io/project-portfolio" />
+  <meta property="og:image" content="https://kasiaizak.github.io/project-portfolio/assets/img/cover.png" />
+
+  <link rel="stylesheet" href="css/main.css">
+  <script src="https://kit.fontawesome.com/e419c4505b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <main class="page">
+    <nav class="page__navigation">
+      <label for="menu">Menu</label>
+      <input type="checkbox" id="menu" />
+      <ul class="page__navigation-list">
+        <li class="page__navigation-item"><a href="#o-mnie">o mnie</a></li>
+        <li class="page__navigation-item"><a href="#umiejetnosci">umiejętności</a></li>
+        <li class="page__navigation-item"><a href="#portfolio">portfolio</a></li>
+        <li class="page__navigation-item"><a href="#kontakt">kontakt</a></li>
+      </ul>
+    </nav>
+
+    <header class="page__header">
+      <section class="page__header-content">
+        <h1 class="page__header-name">Katarzyna <span class="page__header-name--distinction">Izak</span></h1>
+        <p class="page__header-position">Junior Frontend Developer</p>
+      </section>
+    </header>
+
+    <section id="o-mnie" class="module module--about">
+      <h2 class="module__header">O <span class="module__header--distinction">mnie</span></h2>
+      <div class="module__content about">
+        <figure class="about__photo">
+          <img src="assets/img/katarzyna-izak.jpg" alt="Katarzyna Izak" class="about__photo-img" />
+        </figure>
+        <div class="about__description">
+          <p class="module__paragraph">Od blisko dziesięciu lat pracuję w dziale informatycznym Polskiego Związku Hodowców Koni. W tym czasie skupiałam się głównie na administracji stronami opartymi o silnik WordPress (aktualnie zawodowo i prywatnie mam ich kilkanaście pod stałą opieką) oraz na szeroko pojętym helpdesku - wsparciu pracowników biurowych. W mojej pracy zetknęłam się również z bazą Oracle - sporadycznie pisałam zapytania SQLowe.</p>
+          <p class="module__paragraph">W końcu przyszedł czas na zmiany... w pewnym momencie spostrzegłam, że największą radość sprawia mi praca z kodem i z nią chciałabym związać dalej swoją karierę. Naturalnym dla mnie wyborem był frontend - niejednokrotnie miałam wcześniej potrzebę zmiany jakiejś funkcjonalności na naszych stronach, co małymi kroczkami robiłam...</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="umiejetnosci" class="module module--skills">
+      <h2 class="module__header">Moje <span class="module__header--distinction">umiejętności</span></h2>
+      <div class="module__content skills">
+        <p class="module__paragraph">Piszę w <strong>HTML5</strong> (semantycznie i stosuję metodę nazewnictwa klas BEM), <strong>CSS3</strong> (wykorzystuję takie rozwiązania jak flexbox czy grid) oraz poznałam zagadnienia związane z RWD. Aktualnie skupiam się na nauce programowania w <strong>JavaSript (standard ES6)</strong>.<br>W swojej pracy korzystam między innymi z narzędzi: <strong>Figma</strong>, system kontroli wersji <strong>Git</strong>, <strong>Node.js</strong>, taskrunner <strong>Gulp</strong> i preprocesor <strong>SASS</strong>.
+          <p class="module__paragraph">Aktualnie jestem na etapie poszukiwania pracy na stanowisku junior frontend developera, które pomogłoby mi znacząco przyśpieszyć proces uczenia się.</p>
+          <div class="skills__icons">
+            <figure class="skills__icons-item">
+              <img src="assets/icons/html5.png" alt="Ikona HTML5" />
+              <figcaption>HTML5</figcaption>
+            </figure>
+            <figure class="skills__icons-item">
+              <img src="assets/icons/css3.png" alt="Ikona CSS3" />
+              <figcaption>CSS3</figcaption>
+            </figure>
+            <figure class="skills__icons-item">
+              <img src="assets/icons/js.png" alt="Ikona JavaScript" />
+              <figcaption>JavaScript</figcaption>
+            </figure>
+            <figure class="skills__icons-item">
+              <img src="assets/icons/jquery.png" alt="Ikona jQuery" />
+              <figcaption>jQuery</figcaption>
+            </figure>
+          </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="module">
+      <h2 class="module__header">Moje <span class="module__header--distinction">portfolio</span></h2>
+      <div class="module__content portfolio">
+        <div class="portfolio__item portfolio__item--1">
+          <div class="portfolio__item-mask">
+            <div class="portfolio__item-frame">
+              <section class="portfolio__item-content">
+                <h3 class="portfolio__item-header">Gotuję jak Masterszef</h3>
+                <p class="portfolio__item-paragraph">Moja książka kucharska</p>
+                <h4 class="portfolio__item-subheader">Wykorzystane technologie:</h4>
+                <p class="portfolio__item-paragraph">HTML5 oraz CSS3 (SASS)</p>
+                <a href="https://github.com/kasiaizak/masterszef/blob/master/README.md" class="portfolio__item-link"><i class="fas fa-link"></i></a>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio__item portfolio__item--2">
+          <div class="portfolio__item-mask">
+            <div class="portfolio__item-frame">
+              <section class="portfolio__item-content">
+                <h3 class="portfolio__item-header">Business card</h3>
+                <p class="portfolio__item-paragraph">Wizytówka on-line</p>
+                <h4 class="portfolio__item-subheader">Wykorzystane technologie:</h4>
+                <p class="portfolio__item-paragraph">HTML5 oraz CSS3 (SASS).</p>
+                <a href="https://github.com/kasiaizak/business-card/blob/master/README.md" class="portfolio__item-link"><i class="fas fa-link"></i></a>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio__item portfolio__item--3">
+          <div class="portfolio__item-mask">
+            <div class="portfolio__item-frame">
+              <section class="portfolio__item-content">
+                <h3 class="portfolio__item-header">PZHK</h3>
+                <p class="portfolio__item-paragraph">Szablon strony informacyjnej dla PZHK.</p>
+                <h4 class="portfolio__item-subheader">Wykorzystane technologie:</h4>
+                <p class="portfolio__item-paragraph">HTML5 oraz CSS3 (SASS).</p>
+                <a href="https://github.com/kasiaizak/pzhk/blob/master/README.md" class="portfolio__item-link"><i class="fas fa-link"></i></a>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio__item portfolio__item--4">
+          <div class="portfolio__item-mask">
+            <div class="portfolio__item-frame">
+              <section class="portfolio__item-content">
+                <h3 class="portfolio__item-header">LocalStorage Editor</h3>
+                <p class="portfolio__item-paragraph">Strona bazująca na LocalStorage. Na uwagę zasługuje pływająca tęczowa ramka wykonana w CSS.</p>
+                <h4 class="portfolio__item-subheader">Wykorzystane technologie:</h4>
+                <p class="portfolio__item-paragraph">HTML5, CSS3 (SASS) oraz JavaScript (ES6).</p>
+                <a href="https://github.com/kasiaizak/localstorage-editor/blob/master/README.md" class="portfolio__item-link"><i class="fas fa-link"></i></a>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio__item portfolio__item--5">
+          <div class="portfolio__item-mask">
+            <div class="portfolio__item-frame">
+              <section class="portfolio__item-content">
+                <h3 class="portfolio__item-header">HydrApp</h3>
+                <p class="portfolio__item-paragraph">PWA do zliczania wypitych dziennie szklanek wody.</p>
+                <h4 class="portfolio__item-subheader">Wykorzystane technologie:</h4>
+                <p class="portfolio__item-paragraph">HTML5, CSS3 (SASS) oraz JavaScript (ES6).</p>
+                <a href="https://github.com/kasiaizak/hydrapp/blob/master/README.md" class="portfolio__item-link"><i class="fas fa-link"></i></a>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio__item portfolio__item--6">
+          <div class="portfolio__item-mask">
+            <div class="portfolio__item-frame">
+              <section class="portfolio__item-content">
+                <h3 class="portfolio__item-header">FilmŁeb po mojemu</h3>
+                <p class="portfolio__item-paragraph">Biblioteczka filmowa.</p>
+                <h4 class="portfolio__item-subheader">Wykorzystane technologie:</h4>
+                <p class="portfolio__item-paragraph">HTML5, CSS (Bootstrap 4) oraz JavaScript (biblioteka jQuery).</p>
+                <a href="https://github.com/kasiaizak/filmleb/blob/master/README.md" class="portfolio__item-link"><i class="fas fa-link"></i></a>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="kontakt" class="module module--contact">
+      <h2 class="module__header module__header--contact">Katarzyna <span class="module__header--distinction">Izak</span></h2>
+      <div class="module__content contact">
+        <div class="contact__item contact__item--social">
+          <p class="module__paragraph module__paragraph--contact">e-mail <span class="module__paragraph--distinction">kontakt(at)kasiaizak.pl</span></p>
+          <figure class="contact__icons"><a href="https://github.com/kasiaizak" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i></a></figure>
+          <figure class="contact__icons"><a href="https://www.linkedin.com/in/katarzyna-izak/" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin"></i></a></figure>
+          <figure class="contact__icons"><a href="https://www.instagram.com/kasiaizak/" target="_blank" rel="noopener" title="Instagram"><i class="fab fa-instagram"></i></a></figure>
+          <figure class="contact__icons"><a href="https://twitter.com/kasiaizak" target="_blank" rel="noopener" title="Twitter"><i class="fab fa-twitter-square"></i></a></figure>
+        </div>
+        <div class="contact__item contact__item--form">
+          <form method="POST" action="https://formspree.io/kontakt@kasiaizak.pl" class="contact__form">
+            <input type="email" name="email" placeholder="Twój mail" class="contact__form-item">
+            <textarea name="message" rows="5" maxlength="500" placeholder="Twoja wiadomość" class="contact__form-item"></textarea>
+            <button type="submit" class="contact__form-submit">Wyślij</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="page__footer">
+      <p>Copyright &copy; Katarzyna Izak</p>
+    </footer>
+  </main>
+  <!-- <script src="js/main.js"></script> -->
+</body>
+
+</html>
