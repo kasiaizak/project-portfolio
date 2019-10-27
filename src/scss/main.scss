@@ -1,6 +1,6 @@
 @import "_normalize";
 @import "_variables";
-@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,700&display=swap&subset=latin-ext');
 
 html {
   box-sizing: border-box;
@@ -11,7 +11,7 @@ html {
 }
 
 body, textarea {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   @media (min-width: $tablet) {
     font-size: 20px;
@@ -106,7 +106,7 @@ body {
 
     &-name {
       font-family: 'Roboto', sans-serif;
-      font-weight: 200;
+      font-weight: 300;
       font-size: 3rem;
 
       @media (min-width: $tablet) {
@@ -128,7 +128,7 @@ body {
     }
 
     &-position {
-      font-weight: 200;
+      font-weight: 300;
       font-size: 2rem;
       margin-top: 0;
 
