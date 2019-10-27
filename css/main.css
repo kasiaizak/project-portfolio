@@ -540,7 +540,8 @@ body {
     margin: 0.5rem; }
     @media (min-width: 1024px) {
       .portfolio__item {
-        max-width: 600px; } }
+        max-width: 600px;
+        width: 47%; } }
     .portfolio__item--hydrapp {
       background-image: url("../assets/img/hydrapp.png"); }
     .portfolio__item--localstorage-editor {
