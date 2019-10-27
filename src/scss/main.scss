@@ -281,6 +281,7 @@ body {
 
     @media (min-width: $laptop) {
       max-width: 600px;
+      width: 47%;
     }
 
     &--hydrapp { background-image: url("../assets/img/hydrapp.png"); }
