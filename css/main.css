@@ -319,15 +319,15 @@ html {
 body, textarea {
   font-family: 'Roboto', sans-serif;
   font-size: 18px; }
-  @media (min-width: 643px) {
+  @media (min-width: 698px) {
     body, textarea {
-      font-size: 20px; } }
+      font-size: 16px; } }
   @media (min-width: 1440px) {
     body, textarea {
-      font-size: 24px; } }
+      font-size: 18px; } }
   @media (min-width: 2560px) {
     body, textarea {
-      font-size: 42px; } }
+      font-size: 24px; } }
 
 body {
   color: #291f1a;
@@ -352,14 +352,14 @@ body {
     padding: 1.4rem;
     color: #1ac056;
     text-decoration: none; }
-    @media (min-width: 643px) {
+    @media (min-width: 698px) {
       .page__navigation label {
         display: none; } }
   .page__navigation-list {
     display: none;
     margin: 0;
     float: right; }
-    @media (min-width: 643px) {
+    @media (min-width: 698px) {
       .page__navigation-list {
         display: initial; } }
   .page__navigation-item {
@@ -368,7 +368,7 @@ body {
     .page__navigation-item a {
       color: #1ac056;
       text-decoration: none; }
-    @media (min-width: 643px) {
+    @media (min-width: 698px) {
       .page__navigation-item {
         display: inline-block;
         padding: 20px 40px; } }
@@ -400,7 +400,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 3rem; }
-    @media (min-width: 643px) {
+    @media (min-width: 698px) {
       .page__header-name {
         font-size: 4rem; } }
     @media (min-width: 1440px) {
@@ -416,7 +416,7 @@ body {
     font-weight: 300;
     font-size: 2rem;
     margin-top: 0; }
-    @media (min-width: 643px) {
+    @media (min-width: 698px) {
       .page__header-position {
         font-size: 2.5rem; } }
     @media (min-width: 1440px) {
@@ -437,7 +437,7 @@ body {
   background-color: #fff;
   padding: 1rem;
   width: 100%; }
-  @media (min-width: 643px) {
+  @media (min-width: 698px) {
     .module {
       padding: 0 8vw 4rem; } }
   @media (min-width: 1024px) {
@@ -542,6 +542,8 @@ body {
       .portfolio__item {
         max-width: 600px;
         width: 47%; } }
+    .portfolio__item--bcweb {
+      background-image: url("../assets/img/bcweb.jpg"); }
     .portfolio__item--hydrapp {
       background-image: url("../assets/img/hydrapp.png"); }
     .portfolio__item--localstorage-editor {
