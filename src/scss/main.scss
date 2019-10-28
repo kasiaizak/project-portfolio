@@ -14,15 +14,15 @@ body, textarea {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   @media (min-width: $tablet) {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   @media (min-width: $laptop-l) {
-    font-size: 24px;
+    font-size: 18px;
   }
 
   @media (min-width: $screen-4k) {
-    font-size: 42px;
+    font-size: 24px;
   }
 }
 
