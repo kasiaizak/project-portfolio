@@ -542,8 +542,8 @@ body {
       .portfolio__item {
         max-width: 600px;
         width: 47%; } }
-    .portfolio__item--bcweb {
-      background-image: url("../assets/img/bcweb.jpg"); }
+    .portfolio__item--tastrona {
+      background-image: url("../assets/img/tastrona.jpg"); }
     .portfolio__item--hydrapp {
       background-image: url("../assets/img/hydrapp.png"); }
     .portfolio__item--localstorage-editor {
