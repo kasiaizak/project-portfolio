@@ -545,21 +545,23 @@ body {
     .portfolio__item--tastrona {
       background-image: url("../assets/img/tastrona.jpg"); }
     .portfolio__item--hydrapp {
-      background-image: url("../assets/img/hydrapp.png"); }
+      background-image: url("../assets/img/hydrapp.jpg"); }
     .portfolio__item--localstorage-editor {
-      background-image: url("../assets/img/localstorage-editor.png"); }
+      background-image: url("../assets/img/localstorage-editor.jpg"); }
     .portfolio__item--pzhk {
-      background-image: url("../assets/img/pzhk.png"); }
+      background-image: url("../assets/img/pzhk.jpg"); }
     .portfolio__item--business-card {
-      background-image: url("../assets/img/business-card.png"); }
+      background-image: url("../assets/img/business-card.jpg"); }
     .portfolio__item--masterszef {
-      background-image: url("../assets/img/masterszef.png"); }
+      background-image: url("../assets/img/masterszef.jpg"); }
     .portfolio__item--filmweb {
-      background-image: url("../assets/img/filmleb.png"); }
+      background-image: url("../assets/img/filmleb.jpg"); }
+    .portfolio__item--landing-page-nord {
+      background-image: url("../assets/img/landing-page-nord.jpg"); }
     .portfolio__item--portfolio {
-      background-image: url("../assets/img/cover.png"); }
+      background-image: url("../assets/img/cover.jpg"); }
     .portfolio__item--bootstrap-project {
-      background-image: url("../assets/img/bootstrap-project.png"); }
+      background-image: url("../assets/img/bootstrap-project.jpg"); }
     .portfolio__item-mask {
       width: 100%;
       height: 100%;
