@@ -1,4 +1,4 @@
-![cover](https://raw.githubusercontent.com/kasiaizak/portfolio/master/src/assets/img/cover.png)
+![cover](https://raw.githubusercontent.com/kasiaizak/portfolio/master/src/assets/img/cover.jpg)
 
 # Portfolio
 
