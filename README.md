@@ -2,7 +2,7 @@
 
 # Portfolio
 
-Portfolio + trochę informacji na mój temat i formularz kontaktowy - [widok on-line](https://kasiaizak.github.io/portfolio/).
+Portfolio + trochę informacji na mój temat i formularz kontaktowy - [widok on-line](https://portfolio.kasiaizak.pl/).
 
 ## Użyte technologie
 
