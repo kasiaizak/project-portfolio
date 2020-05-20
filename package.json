@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "predeploy": "gulp build",
+    "predeploy": "gulp build && cp CNAME ./dist",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
@@ -34,7 +34,7 @@
     "gulp-notify": "^3.2.0",
     "gulp-plumber": "^1.2.1",
     "gulp-postcss": "^8.0.0",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "^4.1.0",
     "gulp-sourcemaps": "^2.6.5",
     "node-sass": "^4.14.1",
     "through2": "^3.0.1",
@@ -50,6 +50,6 @@
   },
   "dependencies": {
     "eslint": "^6.8.0",
-    "moment": "^2.24.0"
+    "moment": "^2.26.0"
   }
 }
