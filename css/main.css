@@ -570,13 +570,16 @@ body {
     .portfolio__item-paragraph {
       margin: 0.5rem; }
     .portfolio__item-link {
-      white-space: pre;
       font-size: 1.5rem; }
       .portfolio__item-link a {
         color: #fff;
         text-decoration: none; }
         .portfolio__item-link a:hover {
           color: #1ac056; }
+  .portfolio :not(.alone).fa-github {
+    margin-right: 1rem; }
+  .portfolio .fa-link {
+    margin-left: 1rem; }
 
 @media (min-width: 1024px) {
   .contact {
