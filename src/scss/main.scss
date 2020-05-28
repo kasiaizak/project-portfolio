@@ -152,6 +152,13 @@ body {
     padding: 1rem;
     text-align: center;
     line-height: 2rem;
+    &-link {
+      color: $green;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 }
 
