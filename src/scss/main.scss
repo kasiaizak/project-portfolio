@@ -233,8 +233,9 @@ body {
 
 .about {
   @media (min-width: $laptop) {
+    align-items: center;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
   }
   &__photo-img {
     width: 70%;
@@ -284,7 +285,9 @@ body {
       width: 47%;
     }
 
-    &--tastrona { background-image: url("../assets/img/tastrona.jpg"); }
+    &--notes { background-image: url("../assets/img/frontendowe-notatki.jpg"); }
+    &--registry { background-image: url("../assets/img/rejestr-ogierow.jpg"); }
+    &--that-site { background-image: url("../assets/img/tastrona.jpg"); }
     &--hydrapp { background-image: url("../assets/img/hydrapp.jpg"); }
     &--localstorage-editor { background-image: url("../assets/img/localstorage-editor.jpg"); }
     &--pzhk { background-image: url("../assets/img/pzhk.jpg"); }
