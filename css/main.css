@@ -473,10 +473,11 @@ body {
 
 @media (min-width: 1024px) {
   .about {
+    align-items: center;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 1fr;
-    grid-template-columns: 1fr 1fr; } }
+    -ms-grid-columns: 1fr 2fr;
+    grid-template-columns: 1fr 2fr; } }
 
 .about__photo-img {
   width: 70%;
@@ -515,7 +516,11 @@ body {
       .portfolio__item {
         max-width: 600px;
         width: 47%; } }
-    .portfolio__item--tastrona {
+    .portfolio__item--notes {
+      background-image: url("../assets/img/frontendowe-notatki.jpg"); }
+    .portfolio__item--registry {
+      background-image: url("../assets/img/rejestr-ogierow.jpg"); }
+    .portfolio__item--that-site {
       background-image: url("../assets/img/tastrona.jpg"); }
     .portfolio__item--hydrapp {
       background-image: url("../assets/img/hydrapp.jpg"); }
