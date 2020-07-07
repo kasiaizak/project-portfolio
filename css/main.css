@@ -319,10 +319,10 @@ body, textarea {
       font-size: 16px; } }
   @media (min-width: 1440px) {
     body, textarea {
-      font-size: 18px; } }
+      font-size: 22px; } }
   @media (min-width: 2560px) {
     body, textarea {
-      font-size: 24px; } }
+      font-size: 36px; } }
 
 body {
   color: #291f1a;
@@ -345,7 +345,7 @@ body {
     display: block;
     text-align: right;
     padding: 1.4rem;
-    color: #1ac056;
+    color: #da2158;
     text-decoration: none; }
     @media (min-width: 698px) {
       .page__navigation label {
@@ -361,7 +361,7 @@ body {
     display: block;
     padding: 1rem; }
     .page__navigation-item a {
-      color: #1ac056;
+      color: #da2158;
       text-decoration: none; }
     @media (min-width: 698px) {
       .page__navigation-item {
@@ -394,23 +394,23 @@ body {
         font-size: 5rem; } }
     @media (min-width: 2560px) {
       .page__header-name {
-        font-size: 7rem; } }
+        font-size: 8rem; } }
     .page__header-name--distinction {
-      color: #1ac056;
+      color: #da2158;
       font-weight: 400; }
   .page__header-position {
     font-weight: 300;
-    font-size: 2rem;
+    font-size: 1.6rem;
     margin-top: 0; }
     @media (min-width: 698px) {
       .page__header-position {
-        font-size: 2.5rem; } }
+        font-size: 2rem; } }
     @media (min-width: 1440px) {
       .page__header-position {
-        font-size: 3rem; } }
+        font-size: 2.6rem; } }
     @media (min-width: 2560px) {
       .page__header-position {
-        font-size: 4.5rem; } }
+        font-size: 4rem; } }
 
 .page__footer {
   background-color: #1A2F40;
@@ -419,7 +419,7 @@ body {
   text-align: center;
   line-height: 2rem; }
   .page__footer-link {
-    color: #1ac056;
+    color: #da2158;
     text-decoration: none; }
     .page__footer-link:hover {
       text-decoration: underline; }
@@ -456,7 +456,7 @@ body {
       .module__header {
         font-size: 4rem; } }
     .module__header--distinction {
-      color: #1ac056; }
+      color: #da2158; }
     .module__header--contact {
       margin-top: 0;
       text-align: left;
@@ -474,7 +474,7 @@ body {
         .module__paragraph--contact {
           text-align: left; } }
     .module__paragraph--distinction {
-      color: #1ac056; }
+      color: #da2158; }
 
 @media (min-width: 1024px) {
   .about {
@@ -485,7 +485,6 @@ body {
     grid-template-columns: 1fr 2fr; } }
 
 .about__photo-img {
-  width: 70%;
   max-width: 250px;
   border: 14px #fff solid;
   border-radius: 15px;
@@ -585,7 +584,7 @@ body {
         color: #fff;
         text-decoration: none; }
         .portfolio__item-link a:hover {
-          color: #1ac056; }
+          color: #da2158; }
   .portfolio :not(.alone).fa-github {
     margin-right: 1rem; }
   .portfolio .fa-link {
@@ -611,7 +610,7 @@ body {
   .contact__icons a {
     color: #fff; }
     .contact__icons a:hover {
-      color: #1ac056; }
+      color: #da2158; }
 
 .contact__form {
   background-color: #213b50;
@@ -645,7 +644,7 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     float: right;
-    background-color: springgreen;
+    background-color: #da2158;
     border: 1px solid #fff; }
     .contact__form-submit:hover {
       cursor: pointer; }
