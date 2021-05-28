@@ -12,13 +12,13 @@ html {
 
 body, textarea {
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   @media (min-width: $tablet) {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   @media (min-width: $laptop-l) {
-    font-size: 22px;
+    font-size: 24px;
   }
 
   @media (min-width: $screen-4k) {
@@ -253,6 +253,14 @@ body {
     margin: auto;
     @media (min-width: $screen-4k) {
       max-width: 400px;
+    }
+  }
+  &__description blockquote {
+    font-size: 1.4em;
+    font-style: italic;
+    text-align: center;
+    i {
+      font-size: 0.5em;
     }
   }
 }
