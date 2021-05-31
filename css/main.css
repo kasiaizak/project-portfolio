@@ -484,6 +484,10 @@ body {
     -ms-grid-columns: 1fr 2fr;
     grid-template-columns: 1fr 2fr; } }
 
+.about > * {
+  -ms-grid-row-align: center;
+      align-self: center; }
+
 .about__photo-img {
   max-width: 250px;
   border: 14px #fff solid;
@@ -495,11 +499,11 @@ body {
       max-width: 400px; } }
 
 .about__description blockquote {
-  font-size: 1.4em;
+  font-size: 1.35em;
   font-style: italic;
   text-align: center; }
   .about__description blockquote i {
-    font-size: 0.5em; }
+    font-size: 0.4em; }
 
 .skills__icons {
   display: flex;
