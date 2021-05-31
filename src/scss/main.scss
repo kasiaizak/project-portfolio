@@ -244,6 +244,9 @@ body {
     display: grid;
     grid-template-columns: 1fr 2fr;
   }
+  > * {
+    align-self: center;
+  }
   &__photo-img {
     // width: 100%;
     max-width: 250px;
@@ -256,11 +259,11 @@ body {
     }
   }
   &__description blockquote {
-    font-size: 1.4em;
+    font-size: 1.35em;
     font-style: italic;
     text-align: center;
     i {
-      font-size: 0.5em;
+      font-size: 0.4em;
     }
   }
 }
