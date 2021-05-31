@@ -313,13 +313,13 @@ html {
 
 body, textarea {
   font-family: 'Roboto', sans-serif;
-  font-size: 18px; }
+  font-size: 20px; }
   @media (min-width: 698px) {
     body, textarea {
-      font-size: 16px; } }
+      font-size: 20px; } }
   @media (min-width: 1440px) {
     body, textarea {
-      font-size: 22px; } }
+      font-size: 24px; } }
   @media (min-width: 2560px) {
     body, textarea {
       font-size: 36px; } }
@@ -493,6 +493,13 @@ body {
   @media (min-width: 2560px) {
     .about__photo-img {
       max-width: 400px; } }
+
+.about__description blockquote {
+  font-size: 1.4em;
+  font-style: italic;
+  text-align: center; }
+  .about__description blockquote i {
+    font-size: 0.5em; }
 
 .skills__icons {
   display: flex;
