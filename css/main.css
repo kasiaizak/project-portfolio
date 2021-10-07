@@ -338,6 +338,9 @@ body {
   top: 0;
   width: 100%;
   z-index: 2; }
+  @supports (-moz-appearance: none) {
+    .page__navigation {
+      background-color: rgba(255, 255, 255, 0.6); } }
   .page__navigation input {
     display: none; }
     .page__navigation input:checked + ul {
@@ -533,7 +536,7 @@ body {
         max-width: 600px;
         width: 47%; } }
     .portfolio__item--notes {
-      background-image: url("../assets/img/frontendowe-notatki.jpg"); }
+      background-image: url("../assets/img/notatki.png"); }
     .portfolio__item--registry {
       background-image: url("../assets/img/rejestr-ogierow.jpg"); }
     .portfolio__item--that-site {
@@ -559,6 +562,8 @@ body {
     .portfolio__item-mask {
       width: 100%;
       height: 100%;
+      -webkit-backdrop-filter: blur(5px);
+              backdrop-filter: blur(5px);
       background-color: rgba(42, 61, 79, 0.8);
       position: absolute;
       transition: all 0.3s ease-in-out;
